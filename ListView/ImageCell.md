@@ -11,7 +11,7 @@ Built-in Image cells used in a Xamarin Forms ListView or TableView.
 
 <ScrollView>
   <StackLayout>
-      <ListView ItemsSource="{Binding ShopsList}" ItemTapped="{Binding ViewShopCommand}">
+      <ListView ItemsSource="{Binding ShopsList}">
         <ListView.ItemTemplate>
           <DataTemplate>
             <ImageCell
